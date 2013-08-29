@@ -3,6 +3,7 @@ Intel Core 5
 1 processor 2 cores
 memory 2GB
 32-bit
+4 threads
 
 g++ -std=c++11 -o quadratic_sieve quadratic_sieve.cpp -lgmp -lgmpxx -lpthread -O2
 

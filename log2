@@ -3,6 +3,7 @@ Intel Core 7
 1 processor 4 cores
 memory 16GB
 64-bit
+4threads
 
 g++ -std=c++11 -o quadratic_sieve quadratic_sieve.cpp -lgmp -lgmpxx -lpthread -O2 -m64
 
