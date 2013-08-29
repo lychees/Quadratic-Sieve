@@ -1,0 +1,30 @@
+Intel Core 7
+2.6GHz
+1 processor 4 cores
+memory 16GB
+64-bit
+
+g++ -std=c++11 -o quadratic_sieve quadratic_sieve.cpp -lgmp -lgmpxx -lpthread -O2 -m64
+
+Factoring 4959617607688218313786345868238887060960744662976830502372861
+Bound 2369058
+Generating prime bases
+Generated 86984 prime bases.
+The max prime base is 2369033
+Tonelli-Shanks algorithm
+Matrix Size 86984 1361
+
+........
+
+16679.1s to build matrix
+I'm eliminating the matrix...
+529.384s to eliminate
+The rank of the matrix is 78600
+Now let's guess a factor
+Found a factor after 24 guesses
+2132058106207905301269941859757
+2326211275971944198803117865873
+
+real 99m29.187s
+user 369m40.674s
+sys 0m24.298s
